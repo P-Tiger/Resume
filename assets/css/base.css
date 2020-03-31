@@ -1,0 +1,19 @@
+:root{
+    --white-container-color: #F1F2F7;
+    --white-box-color: #FFFFFF;
+    --text-color: #8b808e;
+    --height-nav: 52px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    /* hack or tricks 1 rem = 10px*/
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+

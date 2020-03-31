@@ -1,0 +1,257 @@
+/*header*/
+.header{
+    height: 1000px;
+    background-image: linear-gradient(to left, rgba(0,242,96,0.5), rgba(5,117,230,0.5));
+}
+
+.heading__nav{
+    position: relative;
+    top: 0;
+    background-color: #343A40;
+    width: 100%;
+    height: var(--height-nav);
+    z-index: 2;
+}
+
+/*parallax effect*/
+
+#background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 1000px;
+    z-index: -2;
+    opacity: 1;
+}
+
+.header__nav{
+    display: flex;
+    z-index: 1;
+}
+
+.header__brand-link{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--text-color);
+    transition: font-size linear 0.3s;
+}
+
+.header__nav-list{
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+}
+
+.header__nav-item{
+    padding-right: 30px;
+    font-size: 1.8rem;
+}
+
+.header__nav-link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.header__nav-link:hover,
+.header__brand-link:hover{
+    color: var(--white-box-color);
+}
+
+/*header content*/
+
+.heading__container{
+    padding-top: 20%;
+}
+
+.header__content{
+    text-align: center;
+    color: var(--white-container-color);
+}
+
+
+
+.content__slogan,
+.content__name,
+.content__social{
+    margin: 0 0 30px 0 ;
+}
+
+.content__name{
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.content__slogan{
+    font-size: 2rem;
+}
+
+.content__social--list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content__social--item{
+    font-size: 2rem;
+    margin: 0 12px;
+}
+
+.content__social--link{
+    display: block;
+}
+
+.content__social--icon{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 7px;
+    color: var(--white-container-color);
+    position: relative;
+}
+
+.content__social--icon:hover{
+    color: rgba(26, 188, 156, 0.5);
+    background-color: #FFFFFF;
+}
+
+
+
+/*about*/
+#experiences,
+#products,
+#educations,
+#skills,
+#about{
+    width: 100%;
+    background-color: var(--white-container-color);
+    margin: 0;
+}
+
+.experiences__heading,
+.skills__heading,
+.about__heading{
+    background: var(--white-box-color);
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 3px 3px 0 rgba(1,2,2,0.05);
+}
+
+.experiences__header,
+.skills__header,
+.about__header{
+    width: 100%;
+    height: 94px;
+}
+
+.experiences__header--title,
+.skills__header--title,
+.about__header--title{
+    text-align: center;
+    font-size: 4rem;
+    line-height: 94px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.experiences__content,
+.skills__content,
+.about__content{
+    padding: 30px 0;
+}
+
+img{
+    object-fit: cover;
+    width: 240px;
+    height: 240px;
+    border: 15px solid var(--white-box-color);
+    border-radius: 2px;
+}
+.about__contact,
+.about__summary{
+    background-color: var(--white-box-color);
+    border-radius: 2px;
+}
+.contact__title,
+.summary__title{
+    font-size: 2.2rem;
+    margin: 0;
+    padding: 20px;
+}
+
+.contact__title b,
+.summary__title b{
+    font-weight: 500;
+}
+
+.contact__content,
+.summary__content{
+    padding: 0 20px 20px 20px;
+    font-size: 1.3rem;
+    line-height: 130%;
+    display: block;
+    color: var(--text-color);
+}
+
+.contact__content--address i,
+.contact__content--email i,
+.contact__content--phone i{
+    font-size: 1.5rem;
+    margin: 0 15px 15px 0;
+    width: 15px;
+}
+
+
+.contact__content--email a{
+    display: inline-block;
+}
+
+#skills{
+    width: 100%;
+    background-color: var(--white-container-color);
+    margin: 0;
+}
+
+.skills__container--column3,
+.skills__container--column2,
+.skills__container--column1{
+    background-color: var(--white-box-color);
+    padding: 20px;
+    font-size: 1.3rem;
+    border-radius: 2px;
+}
+
+
+#experiences{
+    width: 100%;
+    background-color: var(--white-container-color);
+    margin: 0;
+}
+
+
+#educations{
+    width: 100%;
+    background-color: var(--white-container-color);
+    margin: 0;
+}
+
+#products{
+    width: 100%;
+    background-color: var(--white-container-color);
+    margin: 0;
+}
+
+@keyframes fadeIn {
+    from{
+        top: -60px;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
