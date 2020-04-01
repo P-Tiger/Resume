@@ -72,7 +72,6 @@
 }
 
 
-
 .content__slogan,
 .content__name,
 .content__social{
@@ -131,6 +130,8 @@
     margin: 0;
 }
 
+.products__heading,
+.educations__heading,
 .experiences__heading,
 .skills__heading,
 .about__heading{
@@ -140,6 +141,9 @@
     box-shadow: 0 3px 3px 0 rgba(1,2,2,0.05);
 }
 
+
+.products__header,
+.educations__header,
 .experiences__header,
 .skills__header,
 .about__header{
@@ -147,6 +151,9 @@
     height: 94px;
 }
 
+
+.products__header--title,
+.educations__header--title,
 .experiences__header--title,
 .skills__header--title,
 .about__header--title{
@@ -158,6 +165,9 @@
     margin: 0;
 }
 
+.footer,
+.educations__content,
+.educations__content,
 .experiences__content,
 .skills__content,
 .about__content{
